@@ -1,5 +1,7 @@
 // TODO: Import required modules
 // Hint: You will need the 'fs' module for reading the file and the 'chalk' library for coloring the words.
+const fs = require('fs');
+const chalk = require('chalk');
 
 /**
  * Synchronously reads the content of 'declaration.txt'.
@@ -7,6 +9,7 @@
  */
 function readFileContent() {
     // TODO: Use the 'fs' module to synchronously read the content of 'declaration.txt' and return it.
+    const filePath = 'declaration.txt';
 }
 
 /**
